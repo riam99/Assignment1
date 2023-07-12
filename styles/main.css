@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-size: 14px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #eedfe3;
+}
+.header-image{
+  position: absolute;
+  left: 700px;
+  top: 55px;
+  height: 520px;
+  width: 450px;
+}
+.header-title {
+  font-style: bold;
+  font-size: 50px;
+  line-height: 50px;
+  padding-left: 100px;
+  color: black;
+  text-align: left;
+  margin-right: 300px;
+  padding-top: 200px;
+
+}
+
+.header-description {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 634px;
+  color: gray;
+  text-align: left;
+  margin-right: 300px;
+  padding-top: 30px;
+  padding-left: 100px;
+  line-height: 20px;
+
+}
+
+.btn-primary {
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  color: white;
+  border-radius: 8px;
+  background: #E55473;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#featured-title{
+  font-size: larger;
+  padding-top: 70px;
+  text-align: center;
+}
+.first-body-description{
+  color: gray;
+  padding-top: 20px;
+  line-height: 20px;
+  padding-bottom: 50px;
+}
+.featured-image{
+  padding-left: 120px;
+  display: flex;
+  gap: 50px;
+}
+.middle{
+  text-align: center;
+  text-decoration: underline;
+}
+.first-body-image{
+  background-color: darkgray;
+  display: flex;
+  gap: 50px;
+  margin-bottom: 10px;
+}
+.icon-image{
+  padding-left: 120px;
+  display: flex;
+  gap: 80px;
+  padding-top: 50px;
+  background-color: darkgray;
+  background-size: 100px 100px;
+}
+.second-body-image{
+  text-align: center;
+  display: flex;
+  margin-left: 50px;
+  display: inline-block;
+  gap: 50px;
+}
+.icon-details{
+  color: rgb(86, 83, 83);
+}
+#red{
+  color: #E55473;
+}
+.third-body-title{
+  padding-left: 200px;
+  padding-top: 50px;
+}
+.description{
+  color: gray;
+  padding-left: 200px;
+  padding-top: 30px;
+}
+.hot-image{
+  position: absolute;
+  left: 700px;
+  top: 1400px;
+  padding-top: 50px;
+  height: 300px;
+  width: 200px;
+}
+.sign{
+  display: inline-flex;
+  padding: 20px 43px;
+  align-items: flex-start;
+  gap: 10px;
+  color: white;
+  border-radius: 8px;
+  background: #E55473;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 200px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.insta{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+  gap: 50px;
+}
+.instagram-description{
+  color: gray;
+}
+.insta-flower{
+  padding-left: 100px;
+}
+.instagram-image{
+  gap: 50px;
+  padding-left: 20px;
+  width: 300px;
+}
+#insta-body{
+  background-color: aliceblue;
+  padding-bottom: 50px;
+}
+.footer{
+  padding-top: 10px;
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  height: 200px;
+}
+.btn-third{
+  color: white;
+  background: #E55473;
+}
+.footer-description{
+  color: gray;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#footer-details{
+  padding-top: 60px;
+  text-align: center;
+}
+
+#footer1{
+  text-align: center;
+  background-color: black;
+}
+.shop{
+  padding-top: 50px;
+  color: #eedfe3;
+}
+.reserved{
+  padding-top: 20px;
+  padding-bottom: 100px;
+  color: gray;
+}
